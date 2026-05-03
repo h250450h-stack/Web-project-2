@@ -1,0 +1,25 @@
+# --- Frontend ---
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# --- Backend (Python) ---
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/.env
+backend/venv/
+backend/env/
+
+# --- Database & OS ---
+.DS_Store
+Thumbs.db
+*.log
+*.sqlite3
+
+# --- Deployment ---
+.vercel
+.netlify
